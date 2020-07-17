@@ -16,6 +16,7 @@ def drawBoard(board):
     print('   |   |')
     print(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
     print('   |   |')
+    print ('Grids are labeled 1-9 from bottom left to top right.')
 
 
 def playAgain():
@@ -50,7 +51,7 @@ def getPlayerMove(board):
     # Let the player type in his move.
     move = ' '
     while move not in '1 2 3 4 5 6 7 8 9'.split() or not isSpaceFree(board, int(move)):
-        print('What is your move?(1-9) Grids are labeled 1-9 from bottom left to top right.')
+        print('What is your move?(1-9)')
         move = input()
     return int(move)
 
