@@ -16,7 +16,7 @@ def drawBoard(board):
     print('   |   |')
     print(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
     print('   |   |')
-    print ('Grids are labeled 1-9 from bottom left to top right.')
+    print ('Welcome to Tic-Tac-Toe! Grids are labeled 1-9 from bottom left to top right.')
 
 
 def playAgain():
