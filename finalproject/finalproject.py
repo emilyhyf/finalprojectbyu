@@ -50,7 +50,7 @@ def getPlayerMove(board):
     # Let the player type in his move.
     move = ' '
     while move not in '1 2 3 4 5 6 7 8 9'.split() or not isSpaceFree(board, int(move)):
-        print('What is your move? (1-9)')
+        print('What is your move?(1-9) Grids are labeled 1-9 from bottom left to top right.')
         move = input()
     return int(move)
 
